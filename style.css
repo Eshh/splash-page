@@ -1,9 +1,46 @@
-
-
 html {
   box-sizing: border-box;
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  background: linear-gradient(180deg, #fff 0%, #f3f8f7 49.91%, #fff9f5 94.19%);
+}
+.wrapper {
+  position: relative;
+  width: 1440px;
+  height: 100vh;
+  overflow-x: hidden;
+  margin: auto;
+}
+.title {
+  color: #54575a;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 67.5px; /* 105.469% */
+}
+.text {
+  color: #54575a;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.brand-img {
+  width: 193px;
+  height: 47.63773727416992px;
+  top: 50.2525634765625px;
+  left: 221px;
+}
+.app-store-img {
+  top: 531px;
+  left: 221px;
+}
+
+.app-store-img img {
+  width: 138.44346618652344px;
+  height: 46.277523040771484px;
 }
